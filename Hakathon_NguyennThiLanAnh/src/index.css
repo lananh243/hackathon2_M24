@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Phong cách chung */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Phong cách cho màn hình lớn (desktop) */
+@media (min-width: 1024px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+
+/* Phong cách cho máy tính bảng */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+}
+
+/* Phong cách cho điện thoại di động */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, Carousel } from 'react-bootstrap';
-
 export default function App() {
   const [showOptions, setShowOptions] = useState<boolean>(false);
 
@@ -63,7 +62,7 @@ export default function App() {
             )}
           </div>
         </div>
-        <div className='w-[100%] bg-gray-50'>
+        <div className='w-full bg-gray-50'>
             <div className='flex gap-3'>
               <Card style={{ width: '13rem' }}>
                 <Card.Img variant="top" src="https://github.com/C4EJS100-TrinhQuocHai/shop-ban-hang/blob/master/images/products/ThietBiDienTu/iphone6.jpg?raw=true" />
@@ -74,7 +73,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>30 đã bán</span>
+                    <span>350 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -125,7 +124,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>428 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -142,7 +141,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>898 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -162,7 +161,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>4878 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -179,7 +178,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>348 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -196,7 +195,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>259 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -213,7 +212,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>478 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -230,7 +229,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>357 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -250,7 +249,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>358 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -267,7 +266,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>3468 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -284,7 +283,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>7898 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -301,7 +300,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>788 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -318,7 +317,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>128 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -339,7 +338,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>4238 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Apple</span>
@@ -356,7 +355,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>198 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -373,7 +372,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>438 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -390,7 +389,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>198 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -407,7 +406,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>521 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -444,7 +443,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>231 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -461,7 +460,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>147 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -478,7 +477,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>634 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -495,7 +494,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>458 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -515,7 +514,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>452 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -532,7 +531,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>898 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -549,7 +548,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>368 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -566,7 +565,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>250 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span>Nike</span>
@@ -583,7 +582,7 @@ export default function App() {
                   </Card.Text>
                   <div className='flex justify-between'>
                     <span className="material-symbols-outlined text-blue-500">favorite</span>
-                    <span>48 đã bán</span>
+                    <span>427 đã bán</span>
                   </div>
                   <div className='flex justify-between text-xs'>
                     <span></span>
@@ -594,7 +593,46 @@ export default function App() {
             </div>
         </div>
       </div>
-      
+      <div className='flex justify-around w-[100%] h-[215px] bg-gray-200'>
+        <div className='pt-5'>
+          <h1 className='text-xl font-bold' >CHĂM SÓC KHÁCH HÀNG</h1>
+          <br />
+          <p className='text-lg font-medium'>Trung tâm trợ giúp</p>
+          <p className='text-lg font-medium'>Hướng dẫn mua hàng</p>
+        </div>
+        <div className='pt-5'>
+          <h1 className='text-xl font-bold'>GIỚI THIỆU</h1>
+          <br />
+          <p className='text-lg font-medium'>Điều khoản</p>
+          <p className='text-lg font-medium'>Chính sách bảo mật</p>
+          <p className='text-lg font-medium'>Tuyển dụng</p>
+        </div>
+        <div className='pt-5'>
+          <h1 className='text-xl font-bold'>DANH MỤC SẢN PHẨM</h1>
+          <br />
+          <p className='text-lg font-medium'>Thời trang</p>
+          <p className='text-lg font-medium'>Đồ tiêu dùng</p>
+          <p className='text-lg font-medium'>Thiết bị điện tử</p>
+          <p className='text-lg font-medium'>Sách</p>
+        </div>
+        <div className='pt-5'>
+          <h1 className='text-xl font-bold'>THEO DÕI CHÚNG TÔI</h1>
+          <br />
+          <i className="fa-brands fa-facebook "></i>
+          <span className='m-2 text-lg font-medium'>Facebook</span>
+          <br />
+          <i className="fa-brands fa-instagram"></i>
+          <span className='m-2 text-lg font-medium'>Instagram</span>
+          <br />
+          <i className="fa-brands fa-twitter"></i>
+          <span className='m-2 text-lg font-medium'>Twitter</span>
+        </div>
+        <div className='pt-5'>
+          <h1 className='text-xl font-bold'>ĐỘI NGŨ PHÁT TRIỂN</h1>
+          <br />
+          <p className='text-lg font-medium text-red-500'>Nguyễn Thị Lan Anh</p>
+        </div>
+      </div>
     </>
   );
 }
